@@ -1,0 +1,184 @@
+.personajesCard {
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgba(179, 243, 245, 0.274);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    /* width: 40%; */
+}
+
+.personajesCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.characterImage {
+    /* border-radius: 10px; */
+    /* background-color: azure; */
+    width: 200px;
+    height: 315px;
+    /* transition: box-shadow .1s, transform;
+    background-image: no-repeat center url(https://bit.ly/3ZbNdfw);
+    background-size: covers; */
+    transform: perspective(900px) translate3d(0px, 0px, -50px) rotateX(0deg) scale(0.9, 0.9);
+    border-radius: 20px;
+    border: 5px solid #e6e6e6;
+    box-shadow: rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0.05) 0px 1px 0px 0px, rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+        rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+    background: #f0eef0;
+    transition: 0.7s ease-in-out transform;
+}
+
+.characterImage:hover {
+    /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 1); */
+    transform: translate3d(0px, 0px, 50px) perspective(900px) rotateY(360deg);
+}
+
+
+@keyframes marquee {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: -100%;
+    }
+}
+
+/* .principal {}
+
+.box {
+    display: flex;
+}
+
+.box .inner {
+    width: 393px;
+    height: 117px;
+    line-height: 120px;
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.box .inner:first-child {
+    transform-origin: right;
+    transform: perspective(100px) rotateY(0deg);
+}
+
+.box .inner:last-child {
+    transform-origin: left;
+    transform: perspective(100px) rotateY(0deg);
+}
+
+.box .inner span {
+    color: blue;
+    position: absolute;
+    animation: marquee 5s linear infinite;
+}
+
+.box .inner:first-child span {
+    animation-delay: 2.5s;
+    left: -100%;
+} */
+
+/* ------------------------otro--------------------- */
+/* .inner {
+    color: #000;
+    position: relative;
+    text-decoration: none;
+}
+
+span {
+    color: blue;
+}
+
+span:hover {
+    color: white;
+}
+
+.inner:before {
+    background: hsl(247, 77%, 65%);
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+    box-shadow: -1px 15px 9px -6px rgba(0, 0, 0, 0.38);
+    -webkit-box-shadow: -1px 15px 9px -6px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: -1px 15px 9px -6px rgba(0, 0, 0, 0.38);
+} */
+
+/* .inner:hover::before {
+    transform: scaleX(1);
+    transform-origin: center;
+} */
+
+/* Presentational styles */
+/* .box {
+    display: grid;
+    font-family: system-ui, sans;
+    font-size: 1.5rem;
+    font-weight: 800;
+    place-items: center;
+} */
+
+
+
+
+
+/* --------------------------otro----------------- */
+
+.texto {
+    --b: 0.1em;
+    /* the thickness of the line */
+    --c: #1095c1;
+    /* the color */
+
+    color: #0000;
+    padding-block: var(--b);
+    background:
+        linear-gradient(var(--c) 50%, #000 0) 0% calc(100% - var(--_p, 0%))/100% 200%,
+        linear-gradient(var(--c) 0 0) 0% var(--_p, 0%)/var(--_p, 0%) var(--b) no-repeat;
+    -webkit-background-clip: text, padding-box;
+    background-clip: text, padding-box;
+    transition: .3s var(--_s, 0s) linear, background-size .3s calc(.3s - var(--_s, 0s));
+}
+
+.texto:hover {
+    --_p: 100%;
+    --_s: .3s;
+    /* background-color: #1095c1; */
+    box-shadow: -1px 15px 9px -6px rgba(0, 0, 0, 0.38);
+    -webkit-box-shadow: -1px 15px 9px -6px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: -1px 15px 9px -6px rgba(0, 0, 0, 0.38);
+}
+
+.box {
+    /* height: 100vh; */
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px 50px;
+    place-content: center;
+    align-items: end;
+}
+
+span {
+    font-family: system-ui, sans-serif;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 0 .1em;
+}
+
+@media(max-width:560px) {
+    .characterImage {
+        width: 90%;
+        height: auto;
+    }
+}

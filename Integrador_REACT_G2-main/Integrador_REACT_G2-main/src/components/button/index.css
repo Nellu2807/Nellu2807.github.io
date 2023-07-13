@@ -1,0 +1,243 @@
+.css-button-3d--sky {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #3a86ff;
+    box-shadow: 0 5px #4433ff;
+}
+
+.css-button-3d--sky:hover {
+    box-shadow: 0 3px #4433ff;
+    top: 1px;
+}
+
+.css-button-3d--sky:active {
+    box-shadow: 0 0 #4433ff;
+    top: 5px;
+}
+
+
+.css-button-3d--sky-modal {
+    min-width: 50px;
+    height: 30px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: small;
+    cursor: pointer;
+    transition: all 0.9s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    background: #3a86ff;
+    box-shadow: 0 5px #4433ff;
+}
+
+.css-button-3d--sky-modal:hover {
+    box-shadow: 0 3px #4433ff;
+    top: 1px;
+}
+
+.css-button-3d--sky-modal:active {
+    box-shadow: 0 0 #4433ff;
+    top: 5px;
+}
+
+/* -------------- */
+
+.css-button-3d-google {
+    min-width: 200px;
+    height: 40px;
+    color: #EA984C;
+    padding: 5px 10px;
+    font-weight: 300;
+    font-size: medium;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    background: #EBE6E2;
+    box-shadow: 0 5px #cac5c1;
+}
+
+.css-button-3d-google:hover {
+    box-shadow: 0 3px #EBE6E2;
+    top: 1px;
+}
+
+.css-button-3d-google:active {
+    box-shadow: 0 0 #EBE6E2;
+    top: 5px;
+}
+
+/* ------------ */
+
+.css-button-3d-email {
+    min-width: 200px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: 300;
+    font-size: medium;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    background: #DB7941;
+    box-shadow: 0 5px #cb7f54;
+}
+
+.css-button-3d-email:hover {
+    box-shadow: 0 3px #cb7f54;
+    top: 1px;
+}
+
+.css-button-3d-email:active {
+    box-shadow: 0 0 #cb7f54;
+    top: 5px;
+}
+
+/* ------------ */
+
+
+.css-button-new-register {
+    /* min-width: 230px; */
+    height: 40px;
+    color: #fff;
+    /* padding: 5px 10px; */
+    font-weight: 300;
+    font-size: large;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    background: transparent;
+    box-shadow: 0 5px transparent;
+}
+
+.css-button-new-register:hover {
+    box-shadow: 0 3px transparent;
+    top: 1px;
+}
+
+.css-button-new-register:active {
+    box-shadow: 0 0 transparent;
+    top: 5px;
+}
+
+
+
+.css-button-register {
+    min-width: 200px;
+    height: 40px;
+    color: #EA984C;
+    padding: 5px 10px;
+    font-weight: 300;
+    font-size: medium;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    background: #EBE6E2;
+    box-shadow: 0 5px #cfcbc7;
+}
+
+.css-button-register:hover {
+    box-shadow: 0 3px #cfcbc7;
+    top: 1px;
+}
+
+.css-button-register:active {
+    box-shadow: 0 0 #cfcbc7;
+    top: 5px;
+}
+
+
+@media (max-width: 768px) {
+
+    .css-button-3d-google,
+    .css-button-3d-email {
+        max-width: 230px;
+    }
+
+
+    .css-button-new-register {
+        /* min-width: 230px; */
+        height: 40px;
+        color: #fff;
+        /* padding: 5px 10px; */
+        font-weight: 300;
+        font-size: large;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 20px;
+        border: none;
+        background: transparent;
+        box-shadow: 0 5px transparent;
+    }
+
+    .css-button-new-register:hover {
+        box-shadow: 0 3px transparent;
+        top: 1px;
+    }
+
+    .css-button-new-register:active {
+        box-shadow: 0 0 transparent;
+        top: 5px;
+    }
+
+
+    .css-button-register {
+        max-width: 160px;
+        height: 40px;
+        color: #EA984C;
+        padding: 5px 10px;
+        font-weight: 100;
+        font-size: medium;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 15px;
+        border: none;
+        background: #EBE6E2;
+        box-shadow: 0 5px #cfcbc7;
+    }
+
+    .css-button-register:hover {
+        box-shadow: 0 3px #cfcbc7;
+        top: 1px;
+    }
+
+    .css-button-register:active {
+        box-shadow: 0 0 #cfcbc7;
+        top: 5px;
+    }
+}
